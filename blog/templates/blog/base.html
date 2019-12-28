@@ -32,7 +32,7 @@
             <a class="nav-item nav-link" href="{% url 'post-create' %}"><b>+ New Post</b></a>
             {% else %}
             <a class="nav-item nav-link" href="{% url 'blog-home' %}">Home</a>
-            <a class="nav-item nav-link" href="{% url 'blog-about' %}">About</a>
+            <a class="nav-item nav-link" href="{% url 'blog-about' %}">About</a>    
             {% endif %}
 
           </div>
@@ -71,13 +71,14 @@
       </div>
       <div class="col-md-4">
         <div class="content-section">
-          <h3>Our Sidebar</h3>
-          <p class='text-muted'>You can put any information here you'd like.
+          <h3>Usefull Menu</h3>
+          <p class='text-muted'>Here you can find usefull informations about healthcare.
             <ul class="list-group">
-              <li class="list-group-item list-group-item-light">Latest Posts</li>
-              <li class="list-group-item list-group-item-light">Announcements</li>
-              <li class="list-group-item list-group-item-light">Calendars</li>
-              <li class="list-group-item list-group-item-light">etc</li>
+              <li class="list-group-item list-group-item-light"><a class="text-decoration-none" target="_blank" href="https://www.helppost.gr/agenda/xrisima-tilefona-ektaktis-anagkis/" >Usefull telephone numbers</a></li>
+              <li class="list-group-item list-group-item-light"><a class="text-decoration-none" target="_blank" href="https://www.timeanddate.com/calendar/" >Calendar</a></li>
+              <li class="list-group-item list-group-item-light"><a class="text-decoration-none" target="_blank" href="https://www.google.gr/maps/" >Maps</a></li><br>
+              <a href="https://www.vrisko.gr/efimeries-farmakeion" target="_blank"><img src="https://www.vrisko.gr/graphlink/Pharmacies/image/300x60_Banner_n/?" border="0" alt="Εφημερεύοντα Φαρμακεία σε όλη την Ελλάδα" /></a><br>
+              <a href="https://www.vrisko.gr/efimeries-nosokomeion" target="_blank"><img src="https://www.vrisko.gr/graphlink/Hospitals/image/300x60_Banner_n/?" border="0" alt="Εφημερεύοντα Νοσοκομεία σε όλη την Ελλάδα" /></a>
             </ul>
           </p>
         </div>
